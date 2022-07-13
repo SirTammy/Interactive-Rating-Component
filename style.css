@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) 
+hsl(25, 97%, 53%)*/
+
+
+
+body{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    padding: 2em 2.5em;
+}
+
+.ratingImage{
+    background-color: hsl(214, 11%, 24%);
+    padding: 1em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+.ratingHeader{
+    color: white;
+    margin-bottom: 0.5em;
+}
+.ratingPara{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.7em;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+
+ li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 1.1em 1.4em;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: hsl(214, 11%, 24%);
+    font-size: 1.2em;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: #fff;
+}
+.btn:focus{
+    background-color:hsl(217, 12%, 63%);
+    color: #ffff;
+}
+.aBtn{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2em;
+    padding: 1.3em 3em;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.aBtn:hover{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%);
+}
+
+.thankYouBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.thankYouImg{
+    display: block;
+    margin: 0 auto 2em;
+}
+.thankYouBox .val{
+    background-color:hsl(214, 11%, 24%);
+    color: hsl(25, 97%, 53%);
+    border-radius:25px ;
+    padding: 10px 25px ;
+    margin-bottom: 2em;
+}
+.thankYouBox h1{
+    color: white;
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+.thankYouBox .appre{
+    color: hsl(217, 12%, 63%);
+    font-size: 17.5px;
+}
+.hidden {
+    display: none;
+}
+
+
+.attribution { font-size: 11px; 
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+    .attribution a { color: hsl(228, 45%, 44%); 
+    text-decoration: none;}
